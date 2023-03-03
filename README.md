@@ -1,6 +1,7 @@
 Hey all, thank you for participating as a validator node for PreviewNet! Please follow the instructions here [ADD LINK] to setup your node and connect to testnet.
-- The docker image tag to use is [IMAGE TAG]
-- Sha256 for the docker image is [DOCKER SHA-256]
+- The docker image tag to use is: `preview_0a0cb31d76063d8ac4a8502c2afc2e8acd6941f4`
+- Dockerhub Link: [aptoslabs/validator:preview_0a0cb31d76063d8ac4a8502c2afc2e8acd6941f4](https://hub.docker.com/layers/aptoslabs/validator/preview_0a0cb31d76063d8ac4a8502c2afc2e8acd6941f4/images/sha256-69421bdfdee3e34a8e2d0de5ee07b6db55514da393b32cca21d5fd22e910e98f?context=explore)
+- Sha 256 Digest for the docker image is `sha256:69421bdfdee3e34a8e2d0de5ee07b6db55514da393b32cca21d5fd22e910e98f`
 - Sha 256 for genesis blob is [GENESIS SHA-256]
 - Waypoint is [WAYPOINT]
 
