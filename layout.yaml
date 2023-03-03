@@ -1,4 +1,6 @@
-chain_id: 50
+root_key: "0x7e67fbe05474596d8476812d5c49da8caf243a63904535314c665f12923126d1"
+chain_id: 50 # start at 50
+allow_new_validators: true
 epoch_duration_secs: 3600 # 1 hours
 total_initial_supply: 100000000000000000 # 1B APT with 8 decimals
 min_price_per_gas_unit: 1
@@ -9,6 +11,7 @@ recurring_lockup_duration_secs: 86400 # 1 day. Should be longer than voting dura
 required_proposer_stake: 1000000000000000 # 10M APT
 rewards_apy_percentage: 7
 voting_duration_secs: 72000 # 20 hours
+voting_power_increase_limit: 20
 users:
 - 'aptos-labs-0'
 - 'aptos-labs-1'
