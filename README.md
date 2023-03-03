@@ -5,3 +5,15 @@ Hey all, thank you for participating as a validator node for PreviewNet! Please 
 - Waypoint is [WAYPOINT]
 
 Let us know if you have any questions, and looking forward to see your node coming online!
+
+# Retrieve latest framework
+
+Pull the latest docker image build and copy it out
+
+```
+export TOOLS_IMAGE=<YOUR TOOLS IMAGE HERE>
+docker run -it ${TOOLS_IMAGE} bash
+
+# in a separate terminal
+docker cp `docker container ls | grep ${TOOLS_IMAGE} | awk '{print $1}'`:/aptos-framework/move/head.mrb framework.mrb 
+```
