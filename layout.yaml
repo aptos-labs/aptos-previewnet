@@ -1,12 +1,12 @@
 root_key: "0x7e67fbe05474596d8476812d5c49da8caf243a63904535314c665f12923126d1"
-chain_id: 50 # start at 50
+chain_id: 51 # start at 50
 allow_new_validators: true
 epoch_duration_secs: 3600 # 1 hours
 total_initial_supply: 100000000000000000 # 1B APT with 8 decimals
 min_price_per_gas_unit: 1
 min_stake: 100000000000000 # 1M APT with 8 decimals
 min_voting_threshold: 40000000000000000 # 400M APT to pass a proposal
-max_stake: 5000000000000000 # 50M APT with 8 decimals
+max_stake: 8000000000000000 # 80M APT with 8 decimals
 recurring_lockup_duration_secs: 86400 # 1 day. Should be longer than voting duration secs
 required_proposer_stake: 1000000000000000 # 10M APT
 rewards_apy_percentage: 7
